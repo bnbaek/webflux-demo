@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active: local
+
+---
+spring:
+  profiles: dev
+
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: testDb
+      username: test
+      password: test
